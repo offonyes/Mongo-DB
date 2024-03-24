@@ -1,0 +1,47 @@
+# Student-Advisor Database Management Application
+
+## Description:
+Student-Advisor Database Management Application is a desktop application developed using PyQt5. Same as the previous one, only this time it's uses MongoDB instead of Sqlite3.
+
+## Features:
+- **Student Database Management:** Easily add, delete, and update student records.
+- **Advisor Database Management:** Easily add, delete, and update advisor records.
+- **Relation Management:** Establish relations between students and advisors.
+- **Random Data Generation:** Generate random data for populating the database.
+- **Statistical Analysis:** Conduct various statistical analyses on the database.
+
+## Installation:
+1. Clone the repository:
+   ```
+   git clone https://github.com/offonyes/Mongo-DB
+   ```
+2. Navigate to the project directory:
+   ```
+   cd Mongo-DB
+   ```
+3. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```
+   python run.py
+   ```
+
+## Usage:
+1. Launch the application.
+2. Manage student and advisor records by adding, deleting, searching, and updating.
+3. Use the main menu to navigate between different functionalities.
+4. Generate random data for testing purposes using the provided functionality.
+5. Perform operations such as adding, deleting, updating, or searching for employee records as needed.
+6. Conduct statistical analyses or generate random data using the provided buttons.
+7. Save any changes made to the database as necessary.
+
+## Requirements:
+- Python 3.12
+- PyQt5
+- qt_material
+- pymongo
+
+## Contributing:
+Contributions are welcome! Feel free to fork the repository, make necessary enhancements, and submit a pull request.

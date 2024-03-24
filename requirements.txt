@@ -1,0 +1,4 @@
+pymongo==4.6.2
+PyQt5==5.15.10
+PyQt5_sip==12.13.0
+qt_material==2.14
